@@ -1,0 +1,62 @@
+/* Add some basic styling to the form */
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } */
+  
+  input[type="text"],
+  input[type="number"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add:hover {
+    background-color: #45a049;
+  }
+  
+  .students {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid gray;
+    background-color: #ebebeb;
+    color: #2f2f2f;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  
+  .students div {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .students div * {
+    margin: 5px;
+  }
+  
